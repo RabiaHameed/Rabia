@@ -1,1 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T04:53:09.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.6" etag="qrSqrrMO7D9mmSMZYfme" type="github"><diagram id="G1drucFNsQp5SeyPnNdL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-11T05:18:55.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Uv_qeLhi22yXZlB5yqkK" version="14.7.6" type="github">
+  <diagram id="G1drucFNsQp5SeyPnNdL" name="Page-1">
+    <mxGraphModel dx="868" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OkWnlrwmbR2eos43UnRI-2" value="Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-3" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="360" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-5" value="Register Customer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OkWnlrwmbR2eos43UnRI-3">
+          <mxGeometry x="70" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-10" value="Providing estimated Cost of Service" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OkWnlrwmbR2eos43UnRI-3">
+          <mxGeometry x="80" y="220" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-9" value="Tracing Status&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OkWnlrwmbR2eos43UnRI-3">
+          <mxGeometry x="130" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-8" value="Online Booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OkWnlrwmbR2eos43UnRI-3">
+          <mxGeometry x="70" y="60" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-21" value="Give Feedback" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OkWnlrwmbR2eos43UnRI-3">
+          <mxGeometry x="160" y="500" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-20" value="Paying for Service" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OkWnlrwmbR2eos43UnRI-3">
+          <mxGeometry x="160" y="430" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-24" value="Register yourself" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OkWnlrwmbR2eos43UnRI-3">
+          <mxGeometry x="130" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-28" value="Set profile of Customer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OkWnlrwmbR2eos43UnRI-3">
+          <mxGeometry x="240" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-34" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="OkWnlrwmbR2eos43UnRI-3" source="OkWnlrwmbR2eos43UnRI-5" target="OkWnlrwmbR2eos43UnRI-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="250" as="sourcePoint" />
+            <mxPoint x="230" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-35" value="&amp;lt;&amp;lt;Extended&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="OkWnlrwmbR2eos43UnRI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OkWnlrwmbR2eos43UnRI-3" source="OkWnlrwmbR2eos43UnRI-8" target="OkWnlrwmbR2eos43UnRI-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="250" as="sourcePoint" />
+            <mxPoint x="230" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-37" value="&amp;lt;&amp;lt;extended&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="OkWnlrwmbR2eos43UnRI-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-4" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkWnlrwmbR2eos43UnRI-2" target="OkWnlrwmbR2eos43UnRI-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-13" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OkWnlrwmbR2eos43UnRI-2" target="OkWnlrwmbR2eos43UnRI-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="340" as="sourcePoint" />
+            <mxPoint x="400" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkWnlrwmbR2eos43UnRI-2" target="OkWnlrwmbR2eos43UnRI-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkWnlrwmbR2eos43UnRI-2" target="OkWnlrwmbR2eos43UnRI-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="390" y="230" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-22" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OkWnlrwmbR2eos43UnRI-4" target="OkWnlrwmbR2eos43UnRI-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkWnlrwmbR2eos43UnRI-4" target="OkWnlrwmbR2eos43UnRI-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="390" as="sourcePoint" />
+            <mxPoint x="470" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkWnlrwmbR2eos43UnRI-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkWnlrwmbR2eos43UnRI-4" target="OkWnlrwmbR2eos43UnRI-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="510" as="sourcePoint" />
+            <mxPoint x="400" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
